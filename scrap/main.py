@@ -35,7 +35,7 @@ def resp_in_list(URL):
 
 
 def save_in_json(vac_list):
-    with open("vacancy.json", "w", encoding="utf8") as file:
+    with open("vacancy_list.json", "w", encoding="utf8") as file:
         json.dump(vac_list, file, ensure_ascii=False, indent=2)
 
 def main():
