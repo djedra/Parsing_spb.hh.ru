@@ -32,7 +32,7 @@ def resp_in_list(URL):
             "Город": city.replace("\xa0", '')
         })
     return vacancy_list
-# pprint.pprint(vacancy_list)
+
 
 def save_in_json(vac_list):
     with open("vacancy.json", "w", encoding="utf8") as file:
